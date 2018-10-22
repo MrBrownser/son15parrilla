@@ -1,0 +1,34 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.bg-navy-gradient {
+  background: rgba(0,32,63,1);
+  background: -webkit-linear-gradient(top, rgba(0,32,63,1) 0%, rgba(0,10,20,1) 100%);
+  background: linear-gradient(to bottom, rgba(0,32,63,1) 0%, rgba(0,10,20,1) 100%);
+}
+
+.big-logo-wrapper {
+  position: absolute;
+  left: 50%;
+}
+
+.big-logo {
+  height: 40vh;
+  width: auto;
+  position: relative;
+  left: -50%;
+}
+
+.column {
+    flex: 1;
+    height: 100%;
+}
+
